@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'LaundryCareSymbols';
+    src: url('fonts/LaundryCareSymbols.eot');
+    src: url('fonts/LaundryCareSymbols.eot?#iefix') format('embedded-opentype'),
+        url('fonts/LaundryCareSymbols.woff') format('woff'),
+        url('fonts/LaundryCareSymbols.ttf') format('truetype'),
+        url('fonts/LaundryCareSymbols.svg#LaundryCareSymbols') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'LaundryCareSymbols';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-wash, .icon-wash-30, .icon-wash-40, .icon-wash-50, .icon-wash-hand, .icon-wash-no, .icon-bleach, .icon-bleach-chlor-no, .icon-bleach-chlor, .icon-bleach-no, .icon-bleach-no-2, .icon-dry, .icon-dry-tumble, .icon-dry-tumble-low, .icon-dry-tumble-normal, .icon-dry-tumble-no, .icon-iron, .icon-iron-low, .icon-iron-medium, .icon-iron-high, .icon-iron-no, .icon-clean, .icon-clean-pce, .icon-clean-hcs, .icon-clean-no {
+    font-family: 'LaundryCareSymbols';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon-wash:before {
+    content: "\e000";
+}
+
+.icon-wash-30:before {
+    content: "\e001";
+}
+
+.icon-wash-40:before {
+    content: "\e002";
+}
+
+.icon-wash-50:before {
+    content: "\e003";
+}
+
+.icon-wash-hand:before {
+    content: "\e004";
+}
+
+.icon-wash-no:before {
+    content: "\e005";
+}
+
+.icon-bleach:before {
+    content: "\e006";
+}
+
+.icon-bleach-chlor-no:before {
+    content: "\e007";
+}
+
+.icon-bleach-chlor:before {
+    content: "\e008";
+}
+
+.icon-bleach-no:before {
+    content: "\e009";
+}
+
+.icon-bleach-no-2:before {
+    content: "\e00a";
+}
+
+.icon-dry:before {
+    content: "\e00b";
+}
+
+.icon-dry-tumble:before {
+    content: "\e00c";
+}
+
+.icon-dry-tumble-low:before {
+    content: "\e00d";
+}
+
+.icon-dry-tumble-normal:before {
+    content: "\e00e";
+}
+
+.icon-dry-tumble-no:before {
+    content: "\e00f";
+}
+
+.icon-iron:before {
+    content: "\e010";
+}
+
+.icon-iron-low:before {
+    content: "\e011";
+}
+
+.icon-iron-medium:before {
+    content: "\e012";
+}
+
+.icon-iron-high:before {
+    content: "\e013";
+}
+
+.icon-iron-no:before {
+    content: "\e014";
+}
+
+.icon-clean:before {
+    content: "\e015";
+}
+
+.icon-clean-pce:before {
+    content: "\e016";
+}
+
+.icon-clean-hcs:before {
+    content: "\e017";
+}
+
+.icon-clean-no:before {
+    content: "\e018";
+}
